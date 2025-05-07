@@ -34,7 +34,8 @@ Or just download `Game Launch Argument Utility(GLAT)` and run it directly.
 
 Run the script from the terminal or double-click if Python is associated with .py files:
 
-```bash
+```
+bash
 python Game Launch Argument Utility(GLAT).py
 ```
 
