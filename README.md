@@ -1,9 +1,9 @@
 
 
 ````markdown
-# Game Launch Argument Tool (GLAT)
+# Game Launch Argument Utility (GLAU)
 
-GLAT is a no-nonsense Python tool that lets you launch old-school games (especially DVD or DRM-free ones) with custom command-line arguments. No launcher required.
+GLAU is a no-nonsense Python tool that lets you launch old-school games (especially DVD or DRM-free ones) with custom command-line arguments. No launcher required.
 
 It's great for running legacy .exe files with specific commands, skipping intros, setting memory pool sizes, or launching games exactly how you want.
 
@@ -24,34 +24,26 @@ It's great for running legacy .exe files with specific commands, skipping intros
 Clone the repository or download the script manually:
 
 ```bash
-git clone https://github.com/your-username/glat.git
+git clone https://github.com/crabtech1/glau.git
 cd glat
 ````
 
-Or just download `glat.py` and run it directly.
+Or just download `Game Launch Argument Utility(GLAT)` and run it directly.
 
 ## Usage
 
 Run the script from the terminal or double-click if Python is associated with .py files:
 
 ```bash
-python glat.py
+python Game Launch Argument Utility(GLAT).py
 ```
 
 Then follow the prompts:
 
 ```
-Insert full path to EXE: C:/Games/ATS/bin/win_x64/ats.exe
-Insert launch arguments (if any): -nointro -64bit
+Insert full path to EXE: (game directory)
+Insert launch arguments (if any): (arguments)
 Launching the game...
-```
-
-## Example Launch Options for American Truck Simulator
-
-```
--nointro            Skips intro videos  
--64bit              Forces 64-bit mode  
--mm_pool_size 4000  Allocates 4 GB to the engine's memory pool
 ```
 
 ## License
